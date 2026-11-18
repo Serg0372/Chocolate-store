@@ -1,24 +1,62 @@
 <header class="header" id="header">
   <div class="container header-container">
-    <a href="./index.html" class="logo">Logo</a>
+    <div class="logo-wrapper"
+      ><a href="./index.html" class="logo"><span class="logo-accent">Simply</span>Chocolate</a>
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/public/icons/sprite.svg#logo"></use></svg
+    ></div>
 
     <nav class="nav" aria-label="Main navigation">
       <ul class="nav-list">
-        <li><a href="#">Section</a></li>
-        <li><a href="#">Section</a></li>
-        <li><a href="#">Section</a></li>
-        <li><a href="#">Section</a></li>
+        <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#made">How it&#39;s made?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Chocolate is loved</a></li>
       </ul>
     </nav>
-
+    <ul class="social-list">
+      <li class="social-item">
+        <a
+          class="social-link"
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener  noreferrer"
+          aria-label="Facebook">
+          <svg width="24" height="24" aria-hidden="true">
+            <use href="/public/icons/sprite.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-item"
+        ><a
+          class="social-link"
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener  noreferrer"
+          aria-label="Instagram">
+          <svg width="24" height="24" aria-hidden="true">
+            <use href="/public/icons/sprite.svg#instagram"></use>
+          </svg> </a
+      ></li>
+      <li class="social-item"
+        ><a
+          class="social-link"
+          href="https://twitter.com"
+          target="_blank"
+          rel="noopener  noreferrer"
+          aria-label="Twitter">
+          <svg width="24" height="24" aria-hidden="true">
+            <use href="/public/icons/sprite.svg#twitter"></use>
+          </svg> </a
+      ></li>
+    </ul>
     <button
       class="burger-menu-btn js-open-menu"
       type="button"
       aria-label="Open menu"
       aria-expanded="false"
       aria-controls="mobile-menu">
-      <svg class="burger-icon" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
-        <use href="/icons/sprite.svg#icon-menu"></use>
+      <svg class="burger-icon" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+        <use href="/icons/sprite.svg#burger-menu"></use>
       </svg>
     </button>
   </div>
