@@ -3,6 +3,7 @@
   "rules": {
     "media-feature-range-notation": "prefix",
     "color-function-notation": "legacy",
+    "color-function-alias-notation": "with-alpha",
     "selector-class-pattern": null,
     "custom-property-pattern": null,
     "comment-empty-line-before": null,
