@@ -34,11 +34,11 @@
 
 /* ------------------- Кнопка бургер меню ------------------- */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .burger-menu-btn {
         display: none;
     }
-}
+} */
 
 
 /* ------------------- Кнопка закриття (Modal / Menu) ------------------- */

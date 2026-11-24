@@ -14,7 +14,7 @@ body {
   /* Покращення відображення шрифтів */
   text-rendering: optimizeLegibility;
 
-  background-color: var(--surface-main);
+  background-color: var(--surface-secondar);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,6 +37,7 @@ h1 {
   font-weight: var(--fw-medium);
   line-height: var(--lh-hero);
   color: var(--surface-main);
+  letter-spacing: var(--ls-h3);
 }
 
 h2 {
