@@ -28,6 +28,7 @@
   --fs-main: 14px;
   --fs-type-prod: 12px;
   --fs-policy: 12px;
+  --fs-overlay: 14px;
   --fs-texteria: 14px;
   --fw-regular: 400;
   --fw-medium: 500;
@@ -57,6 +58,7 @@
     --lh-policy: 1.29;
     --fs-texteria: 18px;
     --lh-texteria: 1.33;
+    --fs-overlay: 16px;
   }
 }
 

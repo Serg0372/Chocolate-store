@@ -1,0 +1,130 @@
+.ingredients-container {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.ingredients-title {
+    max-width: 284px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ingredients-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.ingredients-item {
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 32px 28px 28px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+
+.ingredients-item:nth-child(odd) {
+    color: var(--surface-main);
+}
+
+.ingredients-item:nth-child(even) .ingredients-icon {
+    color: var(--action-primary);
+
+}
+
+.ingredients-item:nth-child(even) {
+    border-color: var(--action-primary);
+    color: var(--text-base);
+    background-color: var(--surface-main);
+}
+
+.ingredients-item:nth-child(4n+1) {
+    background-color: var(--action-primary);
+}
+
+.ingredients-item:nth-child(4n+3) {
+    background-color: var(--surface-contrast);
+}
+
+.ingredients-item:nth-child(n+5) {
+    display: none;
+}
+
+.ingredients-icon {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.ingredients-img {
+    width: 236px;
+    height: 178px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.ingredients-name {
+    margin-bottom: 0;
+    font-weight: var(--fw-semibold);
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+
+    width: 100%;
+    height: 100%;
+
+    background: var(--surface-glass-effect);
+    backdrop-filter: blur(16px);
+
+    transition: var(--transition);
+}
+
+.overlay-text {
+    font-size: var(--fs-overlay);
+    font-weight: var(--fw-medium);
+}
+
+
+.ingredients-item:hover .overlay {
+    transform: translateX(0);
+}
+
+@media screen and (min-width: 768px) {
+
+    .ingredients-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ingredients-item {
+        width: calc((100% - 32px)/2);
+    }
+
+    .ingredients-item:nth-child(n+5) {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .ingredients-item {
+        width: calc((100% - 3*32px)/4);
+        padding: 28px 24px;
+    }
+
+    .ingredients-img {
+        width: 212px;
+        height: 160px;
+        margin: 0;
+        margin-bottom: 36px;
+    }
+}
