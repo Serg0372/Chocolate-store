@@ -10,9 +10,9 @@ body {
   font-weight: var(--fw-regular);
   line-height: var(--lh-main);
   color: var(--text-base);
-
-  /* Покращення відображення шрифтів */
   text-rendering: optimizeLegibility;
+  letter-spacing: var(--ls-base);
+
 
   background-color: var(--surface-secondar);
 
@@ -47,6 +47,12 @@ h2 {
   font-weight: var(--fw-semibold);
   line-height: var(--lh-h2);
   text-align: center;
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-semibold);
+  line-height: var(--lh-h3);
 }
 
 li a {

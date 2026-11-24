@@ -1,3 +1,7 @@
+.hero {
+    padding-bottom: 40px;
+}
+
 .hero-wrapper {
     display: flex;
     flex-direction: column;
@@ -127,8 +131,6 @@
 }
 
 
-
-
 @media screen and (min-width: 768px) {
     .hero-wrapper {
         height: 820px;
@@ -136,8 +138,6 @@
         background-position: 65% center;
         background-size: auto 115%;
     }
-
-
 
     .button {
         padding: 14px 40px;
@@ -154,6 +154,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+
+    .hero {
+        padding-bottom: 80px;
+    }
+
     .hero-wrapper {
         height: 600px;
         background-position: center;
